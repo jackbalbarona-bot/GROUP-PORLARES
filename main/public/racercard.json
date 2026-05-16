@@ -1,0 +1,36 @@
+[
+  { "id": 1,
+   "name": "Toad", 
+   "class": "Small", 
+   "vehicle": "Mushmellow", 
+   "speed": "★★☆☆☆", 
+   "image": "/images/Toad.png" 
+},
+  { "id": 2,
+   "name": "Mario", 
+   "class": "Medium", 
+   "vehicle": "Standard Kart", 
+   "speed": "★★★☆☆",
+    "image": "/images/Mario.png" 
+},
+  { "id": 3, 
+  "name": "Bowser", 
+  "class": "Large", 
+  "vehicle": "Koopa Clown", 
+  "speed": "★★★★★", 
+  "image": "/images/Bowser.png" 
+},
+  { "id": 4, 
+  "name": "Peach", 
+  "class": "Medium", 
+  "vehicle": "Royal Racer",
+  "speed": "★★★☆☆", 
+  "image": "/images/Peach.png" 
+},
+  { "id": 5, 
+  "name": "Yoshi", 
+  "class": "Medium", 
+  "vehicle": "Turbo Yoshi", 
+  "speed": "★★★★☆", 
+  "image": "/images/Yoshi.png" }
+]

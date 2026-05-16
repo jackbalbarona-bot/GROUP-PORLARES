@@ -1,0 +1,62 @@
+.container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Skeleton Grid */
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+/* Reusable Card Component */
+.pokemon-card {
+  border: 4px solid #fccf00; /* Pokemon Gold */
+  background-color: #3b4cca; /* Pokemon Blue */
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 8px 8px 0px #000;
+}
+
+.pokemon-card img {
+  background: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/* Loading Screen Styles */
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.pokeball-loader {
+  width: 60px;
+  height: 60px;
+  border: 8px solid #ccc;
+  border-top: 8px solid #ff0000;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-msg {
+  color: #ff4444;
+  background: #ffeeee;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
